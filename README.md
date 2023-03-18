@@ -1,1 +1,1 @@
-# scrimba-basketball-scroreboard
+# scrimba-basketball-scoreboard
