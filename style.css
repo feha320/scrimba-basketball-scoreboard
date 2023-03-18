@@ -118,3 +118,24 @@ video {
   color: var(--clr-board);
   border: 1px solid var(--clr-timer-container);
 }
+
+.restart-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.restart-btn {
+  color: var(--clr-button);
+  border: 2px solid var(--clr-button);
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-700);
+  background: var(--clr-board);
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+.restart-btn:hover {
+  background: var(--clr-button);
+  color: var(--clr-board);
+  border: 2px solid var(--clr-timer-container);
+}
