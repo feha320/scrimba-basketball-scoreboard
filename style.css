@@ -1,7 +1,7 @@
 :root {
   --fs-400: 0.75rem;
   --fs-500: 1rem;
-  --fs-600: 1.5rem;
+  --fs-600: 1.125rem;
   --fs-700: 2rem;
   --fs-800: 2.5rem;
   --fs-900: 5.625rem;
@@ -14,6 +14,7 @@
   --clr-board: #1B244A;
   --clr-timer-container: #080001;
   --clr-timer: #F94F6D;
+  --clr-button: #9AABD8;
 }
 
 @font-face {
@@ -75,7 +76,7 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .team {
@@ -96,6 +97,24 @@ video {
   border-radius: 10px;
 }
 
-.count {
-  
+.btn-container {
+  display: flex;
+  gap: .75rem;
+}
+
+.add-btn {
+  font-family: "cursed-timer";
+  color: var(--clr-button);
+  border: 1px solid var(--clr-button);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-600);
+  background: var(--clr-board);
+  padding: 1rem .75rem .75rem;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  background: var(--clr-button);
+  color: var(--clr-board);
+  border: 1px solid var(--clr-timer-container);
 }
