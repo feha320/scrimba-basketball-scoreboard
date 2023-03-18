@@ -10,12 +10,10 @@
   --fw-semi-bold: 700;
   --fw-bold: 900;
 
-  --clr-light-100: #E5E7EB;
-  --clr-light-200: #e0e1dd;
-  --clr-neutral-400: #778da9;
-  --clr-neutral-500: #415a77;
-  --clr-dark-700: #1b263b;
-  --clr-dark-800: #0d1b2a;
+  --clr-white: #F3F4F6;
+  --clr-board: #1B244A;
+  --clr-timer-container: #080001;
+  --clr-timer: #F94F6D;
 }
 
 @font-face {
@@ -56,13 +54,14 @@ video {
   width: 720px;
   margin: 1rem auto;
   padding: 2rem 2rem 3rem;
-  background: var(--clr-neutral-500);
+  background: var(--clr-board);
 }
 
 .header {
   text-align: center;
   font-size: var(--fs-700);
   font-weight: var(--fw-bold);
+  color: var(--clr-white);
   margin-bottom: 2rem;
 }
 
@@ -76,21 +75,24 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
 .team {
   font-size: var(--fs-800);
   font-weight: var(--fw-bold);
+  color: var(--clr-white);
+  text-transform: uppercase;
 }
 
 .timer {
   font-family: "cursed-timer";
   font-size: var(--fs-900);
   font-weight: var(--fw-regular);
-  color: var(--clr-light-100);
-  background: var(--clr-dark-700);
+  color: var(--clr-timer);
+  background: var(--clr-timer-container);
   padding: 2rem 2rem 1rem;
-  border: 1px solid var(--clr-dark-800);
+  border: 1px solid var(--clr-timer-container);
   border-radius: 10px;
 }
 
