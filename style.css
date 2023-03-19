@@ -4,6 +4,7 @@
   --fs-600: 1.125rem;
   --fs-700: 2rem;
   --fs-800: 2.5rem;
+  --fs-850: 4.5rem;
   --fs-900: 5.625rem;
 
   --fw-regular: 500;
@@ -149,7 +150,15 @@ video {
     padding-right: 0;
     margin: 0;
   }
+
   .container {
     gap: 1rem;
   }
-}
+
+  .timer {
+    font-size: var(--fs-850);
+    color: var(--clr-timer);
+    width: 160px;
+    height: 100px;
+    padding: 1rem .5rem 1rem 0;
+  }
