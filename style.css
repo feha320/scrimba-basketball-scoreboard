@@ -52,7 +52,7 @@ video {
 
 .page-container {
   border-radius: 10px;
-  width: 720px;
+  max-width: 720px;
   margin: 1rem auto;
   padding: 2rem 2rem 3rem;
   background: var(--clr-board);
@@ -141,4 +141,15 @@ video {
   background: var(--clr-button);
   color: var(--clr-board);
   border: 2px solid var(--clr-timer-container);
+}
+
+@media only screen and (max-width: 600px) {
+  .page-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  .container {
+    gap: 1rem;
+  }
 }
