@@ -92,9 +92,12 @@ video {
   font-weight: var(--fw-regular);
   color: var(--clr-timer);
   background: var(--clr-timer-container);
-  padding: 2rem 2rem 1rem;
+  width: 200px;
+  height: 150px;
+  padding: 2rem .75rem 1rem 0;
   border: 1px solid var(--clr-timer-container);
   border-radius: 10px;
+  text-align: right;
 }
 
 .btn-container {

@@ -18,29 +18,29 @@
       <div class="left-side">
         <h2 class="team">Home</h2>
         <div class="timer">
-          <p class="count">30</p>
+          <p id="home-display">0</p>
         </div>
         <div class="btn-container">
-          <button class="add-btn">+1</button>
-          <button class="add-btn">+2</button>
-          <button class="add-btn">+3</button>
+          <button class="add-btn" onclick="addOneHome()">+1</button>
+          <button class="add-btn" onclick="addTwoHome()">+2</button>
+          <button class="add-btn" onclick="addThreeHome()">+3</button>
         </div>
       </div>
 
       <div class="right-side">
         <h2 class="team">Guest</h2>
         <div class="timer">
-          <p class="count">10</p>
+          <p id="guest-display">0</p>
         </div>
         <div class="btn-container">
-          <button class="add-btn">+1</button>
-          <button class="add-btn">+2</button>
-          <button class="add-btn">+3</button>
+          <button class="add-btn" onclick="addOneGuest()">+1</button>
+          <button class="add-btn" onclick="addTwoGuest()">+2</button>
+          <button class="add-btn" onclick="addThreeGuest()">+3</button>
         </div>
       </div>
     </div>
   <div class="restart-section">
-    <button class="restart-btn">Restart</button>
+    <button class="restart-btn" onclick="restart()">Restart</button>
   </div>
 
   </div>
