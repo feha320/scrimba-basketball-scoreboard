@@ -121,6 +121,7 @@ video {
   background: var(--clr-button);
   color: var(--clr-board);
   border: 1px solid var(--clr-timer-container);
+  cursor: pointer;
 }
 
 .restart-section {
@@ -142,6 +143,7 @@ video {
   background: var(--clr-button);
   color: var(--clr-board);
   border: 2px solid var(--clr-timer-container);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
